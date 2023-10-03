@@ -4,14 +4,14 @@ using UnityEngine;
  
 public class PlayerMove : MonoBehaviour
 {
-    //アニメーション
-    private Animator animator;
     //歩く速さ
     float speed = 3.0f;
+    //アニメーション
+    private Animator animator;
 
     void Start()
     {
-        // animatorコンポーネントを取得
+        //animatorコンポーネントを取得
         animator = gameObject.GetComponent<Animator>();
     }
 
@@ -20,8 +20,17 @@ public class PlayerMove : MonoBehaviour
         //前方移動
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
-            animator.SetTrigger("walk");
+            
             transform.position += speed * transform.forward * Time.deltaTime;
+        }
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            animator.SetTrigger("walk");
+            //transform.position += speed * transform.forward * Time.deltaTime;
+        }
+        else if (Input.GetKeyUp(KeyCode.W))
+        {
+            animator.SetTrigger("idle");
         }
 
         //後方移動
