@@ -5,66 +5,68 @@ using UnityEngine;
 public class PlayerWalkAnim : MonoBehaviour
 {
     //アニメーション
-    private Animator animator;
+    private Animator anim = null;
 
     // Start is called before the first frame update
     void Start()
     {
         //animatorコンポーネントを取得
-        animator = gameObject.GetComponent<Animator>();
+        anim = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //前
-        if (Input.GetKeyDown(KeyCode.W))
+        //左上
+        if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A))
         {
-            animator.SetTrigger("run");
+            anim.SetBool("run2", true);
         }
-        else if (Input.GetKeyUp(KeyCode.W))
+        //右上
+        else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D))
         {
-            animator.SetTrigger("idle");
+            anim.SetBool("run2", true);
         }
-
-        //後ろ
-        if (Input.GetKeyDown(KeyCode.S))
+        //左下
+        else if (Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A))
         {
-            animator.SetTrigger("run");
+            anim.SetBool("run2", true);
         }
-        else if (Input.GetKeyUp(KeyCode.S))
+        //右下
+        else if (Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.D))
         {
-            animator.SetTrigger("idle");
+            anim.SetBool("run2", true);
         }
-
-        //右
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            animator.SetTrigger("run");
-        }
-        else if (Input.GetKeyUp(KeyCode.D))
-        {
-            animator.SetTrigger("idle");
-        }
-
-        //左
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            animator.SetTrigger("run");
-        }
-        else if (Input.GetKeyUp(KeyCode.A))
-        {
-            animator.SetTrigger("idle");
-        }
-
-        //ジャンプ
-        if (Input.GetKey(KeyCode.Space))
-        {
-            animator.SetTrigger("jump");
-        }
-        //else if (Input.GetKeyUp(KeyCode.))
+        //else if (Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.D))
         //{
-        //    animator.SetTrigger("idle");
+        //    anim.SetTrigger("idle");
         //}
+        //前
+        else if (Input.GetKey(KeyCode.W))
+        {
+            anim.SetBool("run2", true);
+        }
+        //後ろ
+        else if (Input.GetKey(KeyCode.S))
+        {
+            anim.SetBool("run2", true);
+        }
+        //右
+        else if (Input.GetKey(KeyCode.D))
+        {
+            anim.SetBool("run2", true);
+        }
+        //左
+        else if (Input.GetKey(KeyCode.A))
+        {
+            anim.SetBool("run2", true);
+        }
+        else
+        {
+            anim.SetBool("run2", false);
+            //anim.SetTrigger("idle");
+        }
+
+      
     }
 }
