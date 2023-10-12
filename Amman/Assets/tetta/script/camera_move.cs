@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class camera_move : MonoBehaviour
 {
-    float speed = 0.01f;
+    float speed = 0.0001f;
 
     void Update()
     {
