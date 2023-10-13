@@ -8,8 +8,7 @@ public class PlayerMove : MonoBehaviour
     //アニメーション
     private Animator anim = null;
 
-    [SerializeField]
-    private float MoveSpeed;//移動スピードを入れるための変数
+    public static float MoveSpeed;//移動スピードを入れるための変数
 
     private Vector3 Velocity;//CharacterControllerを動かすためのVector3型の変数を作成
 
@@ -20,6 +19,8 @@ public class PlayerMove : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         //CharacterControllerを取得
         controller = GetComponent<CharacterController>();
+
+        MoveSpeed = 3.0f;
     }
     void Update()
     {
@@ -27,11 +28,11 @@ public class PlayerMove : MonoBehaviour
         if (controller.isGrounded)
         {
             anim.SetBool("jump", false);
-            Debug.Log("当");
+            //Debug.Log("当");
             // スペースキーでジャンプ
             if (Input.GetKey(KeyCode.Space))
             {
-                Debug.Log("当");
+                //Debug.Log("当");
                 anim.SetBool("jump", true);
                 // ジャンプ力を設定
                 moveDirection.y = 5;
@@ -39,7 +40,7 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            Debug.Log("外");
+            //Debug.Log("外");
             // 重力計算
             moveDirection.y -= 8 * Time.deltaTime;
         }
