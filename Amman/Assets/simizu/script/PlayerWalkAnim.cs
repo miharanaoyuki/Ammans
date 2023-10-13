@@ -37,10 +37,6 @@ public class PlayerWalkAnim : MonoBehaviour
         {
             anim.SetBool("run2", true);
         }
-        //else if (Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.D))
-        //{
-        //    anim.SetTrigger("idle");
-        //}
         //ëO
         else if (Input.GetKey(KeyCode.W))
         {
@@ -61,12 +57,19 @@ public class PlayerWalkAnim : MonoBehaviour
         {
             anim.SetBool("run2", true);
         }
+        //âΩÇ‡ÇµÇ»Ç¢èÍçá
         else
         {
             anim.SetBool("run2", false);
             //anim.SetTrigger("idle");
         }
 
-      
+
+        if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || 
+            Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+            && Input.GetKey(KeyCode.Space))
+        {
+            anim.SetBool("run2", false);
+        }
     }
 }
