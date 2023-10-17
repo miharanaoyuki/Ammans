@@ -78,6 +78,18 @@ public class HP : MonoBehaviour
             lifeArray[life - 1].SetActive(false);
             life--;
         }
+        if (other.gameObject.tag == "heart")
+        {
+           
+            //soundManager.Play("damage");
+            if (life < 3)
+            {
+                Debug.Log("ƒoƒC");
+                lifeArray[life ].SetActive(true);
+                life++;
+            }
+            
+        }
 
 
     }

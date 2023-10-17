@@ -12,9 +12,10 @@ public class P_dame : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
-        StartCoroutine("HitBlink"); 
-
+        if (other.gameObject.tag == "Enemy")
+        {
+            StartCoroutine("HitBlink");
+        }
        
     }
 
