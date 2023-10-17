@@ -64,7 +64,6 @@ public class PlayerWalkAnim : MonoBehaviour
             //anim.SetTrigger("idle");
         }
 
-
         if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || 
             Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
             && Input.GetKey(KeyCode.Space))
