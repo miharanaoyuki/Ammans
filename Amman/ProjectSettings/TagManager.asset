@@ -7,9 +7,7 @@ TagManager:
   - ground
   - wall
   - heart
-  - Enemy
-  - speed_UP
-  - speed_DOWN
+
   layers:
   - Default
   - TransparentFX
