@@ -8,6 +8,7 @@ TagManager:
   - wall
   - heart
   - b
+  - door
   layers:
   - Default
   - TransparentFX
