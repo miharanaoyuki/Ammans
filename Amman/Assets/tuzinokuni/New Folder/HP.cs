@@ -14,6 +14,8 @@ public class HP : MonoBehaviour
 
     public static int MAX = 3;
 
+    public GameObject[] lifeArray = new GameObject[3];
+    private int lifePoint = 3;
 
     //[SerializeField]
     //private SoundManager soundManager;
@@ -45,6 +47,10 @@ public class HP : MonoBehaviour
         {
 
             life = MAX;
+
+            lifeArray[0].SetActive(true);
+            lifeArray[1].SetActive(true);
+            lifeArray[2].SetActive(true);
             die();
         }
 
@@ -68,6 +74,8 @@ public class HP : MonoBehaviour
         {
             Debug.Log("バイバイ");
             //soundManager.Play("damage");
+
+            lifeArray[life - 1].SetActive(false);
             life--;
         }
 
