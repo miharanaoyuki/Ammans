@@ -12,8 +12,10 @@ public class P_dame : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
-        StartCoroutine("HitBlink"); 
+        if (other.gameObject.tag == "Enemy")
+        {
+            StartCoroutine("HitBlink");
+        }
 
        
     }
@@ -30,10 +32,10 @@ public class P_dame : MonoBehaviour
 
             _renderer.enabled = false;
             //0.05秒待つ
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.07f);
             _renderer.enabled = true;
             //0.05秒待つ
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.07f);
             count--;
         }
         //レイヤーをPlayerに戻す

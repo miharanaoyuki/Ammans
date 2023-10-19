@@ -60,7 +60,7 @@ public class HP : MonoBehaviour
     void die()
     {
 
-        SceneManager.LoadScene("over");
+        SceneManager.LoadScene("GAMEOVER");
 
         Debug.Log("バイバイ");
 
@@ -91,7 +91,13 @@ public class HP : MonoBehaviour
             }
         }
 
-    }
+
+        if (other.gameObject.tag == "death")
+        {
+            SceneManager.LoadScene("GAMEOVER");
+
+        }
+      }
 
    
 }
