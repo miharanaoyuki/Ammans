@@ -7,18 +7,19 @@ TagManager:
   - ground
   - wall
   - heart
-
+  - Enemy
+  - death
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - wall
   - Water
   - UI
   - Player
-  - wall
-  - Playerdame
   - Enemy
+  - Playerdame
+  - death
   - 
   - 
   - 
@@ -44,7 +45,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: front
-    uniqueID: 3772205413
     locked: 0
