@@ -13,7 +13,15 @@ public class PlayerMove : MonoBehaviour
 
     private Vector3 Velocity;//CharacterControllerを動かすためのVector3型の変数を作成
 
-    bool _jump;
+    bool W_jump;
+    bool A_jump;
+    bool S_jump;
+    bool D_jump;
+
+    bool WA_jump;
+    bool SA_jump;
+    bool SD_jump;
+    bool WD_jump;
 
     // Start is called before the first frame update
     void Start()
@@ -25,21 +33,27 @@ public class PlayerMove : MonoBehaviour
 
         MoveSpeed = 3.0f;
 
-        _jump = false;
+        
     }
     void Update()
     {
         // 接地しているなら
         if (controller.isGrounded)
         {
-            _jump = false;
+            W_jump = false;
+            A_jump = false;
+            S_jump = false;
+            D_jump = false;
+
+            WA_jump = false;
+            SA_jump = false;
+            SD_jump = false;
+            WD_jump = false;
+
             anim.SetBool("jump", false);
-            Debug.Log(_jump);
             // スペースキーでジャンプ
             if (Input.GetKey(KeyCode.Space))
             {
-                _jump = true;
-                Debug.Log(_jump);
                 anim.SetBool("jump", true);
                 // ジャンプ力を設定
                 moveDirection.y = 5;
@@ -52,9 +66,8 @@ public class PlayerMove : MonoBehaviour
             moveDirection.y -= 8 * Time.deltaTime;
         }
 
-        if (_jump == false)
-        {
-            if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A))
+        
+            if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A)&& WA_jump = false;)
             {
                 transform.rotation = Quaternion.Euler(0, 315, 0);
                 controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
@@ -94,11 +107,8 @@ public class PlayerMove : MonoBehaviour
                 transform.rotation = Quaternion.Euler(0, 90, 0);
                 controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
             }
-        }
-        else
-        {
-            controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
-        }
+        
+        
 
         // Cubeを動かす処理
         controller.Move(moveDirection * Time.deltaTime);
