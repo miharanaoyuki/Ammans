@@ -13,6 +13,8 @@ public class PlayerMove : MonoBehaviour
 
     private Vector3 Velocity;//CharacterControllerを動かすためのVector3型の変数を作成
 
+    bool a, b, c, d, e, f, g, h;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,15 @@ public class PlayerMove : MonoBehaviour
         // 接地しているなら
         if (controller.isGrounded)
         {
+            a = false;
+            b = false;
+            c = false;
+            d = false;
+            e = false;
+            f = false;
+            g = false;
+            h = false;
+
             anim.SetBool("jump", false);
             // スペースキーでジャンプ
             if (Input.GetKey(KeyCode.Space))
@@ -44,43 +55,107 @@ public class PlayerMove : MonoBehaviour
             moveDirection.y -= 8 * Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A) && a == false)
         {
+            //a = true;
+            b = true;
+            c = true;
+            d = true;
+            e = true;
+            f = true;
+            g = true;
+            h = true;
             transform.rotation = Quaternion.Euler(0, 315, 0);
             controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
         }
-        else if (Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A) && b == false)
         {
+            a = true;
+            //b = true;
+            c = true;
+            d = true;
+            e = true;
+            f = true;
+            g = true;
+            h = true;
             transform.rotation = Quaternion.Euler(0, 225, 0);
             controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
         }
-        else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D) && c == false)
         {
+            a = true;
+            b = true;
+            //c = true;
+            d = true;
+            e = true;
+            f = true;
+            g = true;
+            h = true;
             transform.rotation = Quaternion.Euler(0, 45, 0);
             controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
         }
-        else if (Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.D) && d == false)
         {
+            a = true;
+            b = true;
+            c = true;
+            //d = true;
+            e = true;
+            f = true;
+            g = true;
+            h = true;
             transform.rotation = Quaternion.Euler(0, 135, 0);
             controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
         }
-        else if (Input.GetKey(KeyCode.W))
+        else if (Input.GetKey(KeyCode.W) && e == false)
         {
+            a = true;
+            b = true;
+            c = true;
+            d = true;
+            //e = true;
+            f = true;
+            g = true;
+            h = true;
             transform.rotation = Quaternion.Euler(0, 0, 0);//0°に向ける
             controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S) && f == false)
         {
+            a = true;
+            b = true;
+            c = true;
+            d = true;
+            e = true;
+            //f = true;
+            g = true;
+            h = true;
             transform.rotation = Quaternion.Euler(0, 180, 0);
             controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A) && g == false)
         {
+            a = true;
+            b = true;
+            c = true;
+            d = true;
+            e = true;
+            f = true;
+            //g = true;
+            h = true;
             transform.rotation = Quaternion.Euler(0, 270, 0);
             controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D) && h == false)
         {
+            a = true;
+            b = true;
+            c = true;
+            d = true;
+            e = true;
+            f = true;
+            g = true;
+            //h = true;
             transform.rotation = Quaternion.Euler(0, 90, 0);
             controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
         }
