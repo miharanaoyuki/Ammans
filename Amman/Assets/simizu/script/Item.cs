@@ -36,9 +36,9 @@ public class Item : MonoBehaviour
         }
 
         //スピードを遅くする
-        if (col.gameObject.tag == "speed_DOWN")
+        if (col.gameObject.tag == "Enemy")
         {
-            Destroy(col.gameObject);
+            //Destroy(col.gameObject);
             PlayerMove.MoveSpeed = Speed_Down;
 
             Invoke("Remove", Speed_Down_Time);
