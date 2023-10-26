@@ -18,6 +18,8 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Application.targetFrameRate = 60;
+
         //animatorコンポーネントを取得
         anim = gameObject.GetComponent<Animator>();
         //CharacterControllerを取得
@@ -164,5 +166,21 @@ public class PlayerMove : MonoBehaviour
         controller.Move(moveDirection * Time.deltaTime);
 
         //controller.Move(Velocity * Time.deltaTime);//characterControllerをVelocity * 時間の経過分動かす
+
+        EndGame();//ゲームプレイ終了関数
+    }
+
+    private void EndGame()
+    {
+        //Escが押された時
+        if (Input.GetKey(KeyCode.Escape))
+        {
+
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;//ゲームプレイ終了
+#else
+    Application.Quit();//ゲームプレイ終了
+#endif
+        }
     }
 }
