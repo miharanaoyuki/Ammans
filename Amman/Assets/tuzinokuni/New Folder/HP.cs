@@ -17,6 +17,8 @@ public class HP : MonoBehaviour
     public GameObject[] lifeArray = new GameObject[3];
     private int lifePoint = 3;
 
+    [SerializeField]
+    private SoundManager soundManager;
     //[SerializeField]
     //private SoundManager soundManager;
     // Use this for initialization
@@ -75,6 +77,7 @@ public class HP : MonoBehaviour
             Debug.Log("バイバイ");
             //soundManager.Play("damage");
 
+            soundManager.Play("dame");
             lifeArray[life - 1].SetActive(false);
             life--;
         }
@@ -86,6 +89,7 @@ public class HP : MonoBehaviour
 
             if (life < 3)
             {
+                soundManager.Play("Heal");
                 lifeArray[life].SetActive(true);
                 life++;
             }
