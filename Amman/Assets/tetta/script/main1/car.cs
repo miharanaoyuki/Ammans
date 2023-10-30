@@ -15,7 +15,7 @@ public class car : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.z <= 60.0f)
+        if (camera_move1.point == 0)
         {
             transform.Translate(0, 0, speed);
         }
