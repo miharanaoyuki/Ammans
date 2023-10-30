@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class car3 : MonoBehaviour
 {
-    float speed = 0.01f;
+    float speed = 0.05f;
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +15,9 @@ public class car3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (camera_move1.point == 2)
+        {
             transform.Translate(0, 0, speed);
+        }
     }
 }
