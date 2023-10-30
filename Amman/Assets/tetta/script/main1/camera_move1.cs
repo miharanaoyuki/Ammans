@@ -4,30 +4,38 @@ using UnityEngine;
 
 public class camera_move1 : MonoBehaviour
 {
-    GameObject player;
+    float speed = 0.05f;
+
+    public static int point = 0;
+
     // Start is called before the first frame update
     void Start()
     {
-        this.player = GameObject.Find("MaleFree1");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 playerPos = this.player.transform.position;
-        transform.position = new Vector3(
-            playerPos.x, transform.position.y, transform.position.z);
-
-        if (playerPos.x < -8)
+        if (point == 0)
         {
-            transform.position = new Vector3(
-                -8, transform.position.y, transform.position.z);
+            transform.Translate(0, 0, speed);
         }
-
-        if (playerPos.x > 8)
+        if (transform.position.z >= 62.0f && transform.position.x <= 1.0f)
         {
-            transform.position = new Vector3(
-                8, transform.position.y, transform.position.z);
+            point = 1;
+        }
+        if (point == 1)
+        {
+            transform.Translate(speed, 0, 0);
+        }
+        if (transform.position.x >= 88.9f)
+        {
+            point = 2;
+        }
+        if (point == 2)
+        {
+            transform.Translate(0, 0, -speed);
         }
     }
 }
