@@ -6,6 +6,9 @@ public class PlayerMove : MonoBehaviour
     private CharacterController controller;
     private Vector3 moveDirection;
 
+    [SerializeField]
+    private SoundManager soundManager;
+
     //アニメーション
     private Animator anim = null;
 
@@ -45,6 +48,10 @@ public class PlayerMove : MonoBehaviour
             // スペースキーでジャンプ
             if (Input.GetKey(KeyCode.Space))
             {
+                //if (Input.GetKey(KeyCode.Space))
+                {
+                    soundManager.Play("jump");
+                }
                 anim.SetBool("jump", true);
                 // ジャンプ力を設定
                 moveDirection.y = 5;
