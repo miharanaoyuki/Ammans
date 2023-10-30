@@ -15860,6 +15860,8 @@ GameObject:
   - component: {fileID: 1893958733}
   - component: {fileID: 1893958732}
   - component: {fileID: 1893958731}
+  - component: {fileID: 1893958734}
+  - component: {fileID: 1893958735}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -15930,9 +15932,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 116068190}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+
 --- !u!1001 &1918882337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16221,6 +16221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28bfa8bee0a67d644b845389e061ab55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundManager: {fileID: 0}
 --- !u!114 &1918882352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16279,7 +16280,7 @@ MonoBehaviour:
   - {fileID: 473195217}
   - {fileID: 1269185868}
   - {fileID: 1044542040}
-  soundManager: {fileID: 0}
+
 --- !u!114 &1918882360
 MonoBehaviour:
   m_ObjectHideFlags: 0
