@@ -5,6 +5,7 @@ using UnityEngine;
 public class Build : MonoBehaviour
 {
     [SerializeField] GameObject panel;
+    [SerializeField] GameObject panel2;
    
     void Start()
     {
@@ -21,6 +22,12 @@ public class Build : MonoBehaviour
         if (other.gameObject.tag == "door")
         {
             panel.SetActive(true);
+            Debug.Log("hit");
+        }
+
+  if (other.gameObject.tag == "door2")
+        {
+            panel2.SetActive(true);
             Debug.Log("hit");
         }
     }
