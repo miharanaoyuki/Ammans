@@ -8,7 +8,7 @@ public class Choice : MonoBehaviour
 Button button;
 void Start()
 {
-button = GameObject.Find("Canvas/ButtonSummary/Button").GetComponent<Button>();
+button = gameObject.GetComponent<Button>();
 //ボタンが選択された状態になる
         button.Select();
 }
