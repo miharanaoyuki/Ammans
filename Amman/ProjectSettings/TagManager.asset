@@ -9,6 +9,9 @@ TagManager:
   - heart
   - Enemy
   - death
+  - door
+  - door1
+  - door2
   layers:
   - Default
   - TransparentFX
