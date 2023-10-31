@@ -48,10 +48,9 @@ public class PlayerMove : MonoBehaviour
             // スペースキーでジャンプ
             if (Input.GetKey(KeyCode.Space))
             {
-                //if (Input.GetKey(KeyCode.Space))
-                {
-                    soundManager.Play("jump");
-                }
+               
+                soundManager.Play("jump");
+                
                 anim.SetBool("jump", true);
                 // ジャンプ力を設定
                 moveDirection.y = 5;
