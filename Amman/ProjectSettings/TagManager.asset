@@ -12,6 +12,7 @@ TagManager:
   - door
   - door1
   - door2
+  - clear
   layers:
   - Default
   - TransparentFX
