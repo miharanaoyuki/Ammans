@@ -11,7 +11,7 @@ public class camera_move1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        point = 0;
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class camera_move1 : MonoBehaviour
         {
             transform.Translate(0, 0, speed);
         }
-        if (transform.position.z >= 62.0f && transform.position.x <= 1.0f)
+        if (transform.position.z >= 64.0f && transform.position.x <= 1.0f)
         {
             point = 1;
         }

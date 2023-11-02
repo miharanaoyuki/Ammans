@@ -28,7 +28,7 @@ public class PlayerMove : MonoBehaviour
         //CharacterController‚ðŽæ“¾
         controller = GetComponent<CharacterController>();
 
-        MoveSpeed = 3.0f;
+        MoveSpeed = 5.0f;
     }
     void Update()
     {

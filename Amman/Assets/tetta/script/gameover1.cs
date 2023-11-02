@@ -14,7 +14,7 @@ public class gameover1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.Return))
         {
             SceneManager.LoadScene("main");
         }
