@@ -101,6 +101,12 @@ public class HP : MonoBehaviour
             SceneManager.LoadScene("GAMEOVER");
 
         }
+        if (other.gameObject.tag == "clear")
+        {
+            SceneManager.LoadScene("GameClear");
+
+        }
+    
       }
 
    
