@@ -12,7 +12,7 @@ public class Scenenavi: MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // SampleScene‚ÉØ‚è‘Ö‚¦‚é
-            SceneManager.LoadScene("main");
+            SceneManager.LoadScene("StageSelect");
         }
     }
 }
