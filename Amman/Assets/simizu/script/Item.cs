@@ -6,8 +6,8 @@ public class Item : MonoBehaviour
 {
     public float Speed_Up;        //速くなったスピード
     public float Speed_Up_Time;   //速くなってから元のスピードに戻る時間
-    public float Speed_Down;      //遅くなったスピード
-    public float Speed_Down_Time; //遅くなってから元のスピードに戻る時間
+    //public float Speed_Down;      //遅くなったスピード
+    //public float Speed_Down_Time; //遅くなってから元のスピードに戻る時間
     public float Remove_Speed;    //元のスピード
 
     // Start is called before the first frame update
@@ -36,13 +36,13 @@ public class Item : MonoBehaviour
         }
 
         //スピードを遅くする
-        if (col.gameObject.tag == "Enemy")
-        {
-            //Destroy(col.gameObject);
-            PlayerMove.MoveSpeed = Speed_Down;
+        //if (col.gameObject.tag == "Enemy")
+        //{
+        //    //Destroy(col.gameObject);
+        //    PlayerMove.MoveSpeed = Speed_Down;
 
-            Invoke("Remove", Speed_Down_Time);
-        }
+        //    Invoke("Remove", Speed_Down_Time);
+        //}
 
         //HP回復
         if (col.gameObject.tag == "heart")
