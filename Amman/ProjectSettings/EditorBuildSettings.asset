@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Stage/main/Title.unity
     guid: 81a5d1480e1ee3b46a98472c6b4b5e00
   - enabled: 1
-    path: Assets/Scenes/Stage/main/GAMEOVER.unity
-    guid: 38d6f08b98067124facc02f8e43243d5
-  - enabled: 1
     path: Assets/Scenes/Stage/main/StageSelect.unity
     guid: 5adabc63af6d15f4786b0f4adb2234b0
   - enabled: 1
@@ -20,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage/main/main2.unity
     guid: a9817db6d886cae42978d89dfe712db8
+  - enabled: 1
+    path: Assets/Scenes/Stage/main/GAMEOVER.unity
+    guid: 38d6f08b98067124facc02f8e43243d5
   - enabled: 1
     path: Assets/Scenes/Stage/main/GameClear.unity
     guid: bc999570d0e80ba45930419853001529
