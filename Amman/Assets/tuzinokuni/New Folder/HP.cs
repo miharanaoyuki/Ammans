@@ -64,18 +64,18 @@ public class HP : MonoBehaviour
 
         SceneManager.LoadScene("GAMEOVER");
 
-        Debug.Log("バイバイ");
+        //Debug.Log("バイバイ");
 
     }
 
 
 
-     void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Enemy")
         {
             Debug.Log("バイバイ");
-            //soundManager.Play("damage");
+            soundManager.Play("damage");
 
             soundManager.Play("dame");
             lifeArray[life - 1].SetActive(false);
@@ -85,7 +85,7 @@ public class HP : MonoBehaviour
         if (other.gameObject.tag == "heart")
         {
             Debug.Log("バイ");
-            //soundManager.Play("damage");
+            soundManager.Play("damage");
 
             if (life < 3)
             {
@@ -106,8 +106,17 @@ public class HP : MonoBehaviour
             SceneManager.LoadScene("GameClear");
 
         }
-    
-      }
 
-   
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+
+
+        Debug.Log("バp");
+
+
+
+    }
+
 }
