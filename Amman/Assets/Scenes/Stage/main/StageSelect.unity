@@ -774,8 +774,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc49a02b6d2abeb48b8eb4402a90687e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  downSpeed: 3
-  fallCount: 3
+  downSpeed: 1
+  fallCount: 1
 --- !u!4 &176632252 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467192, guid: 52e3c281ef0f0ea4985188d26644edcb, type: 3}
@@ -1902,8 +1902,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.24276423, y: 0.056720197, z: 0.19935179}
-  m_Center: {x: 0.010362506, y: 0.018390954, z: -0.02256155}
+  m_Size: {x: 0.23912716, y: 0.03994924, z: 0.2354939}
+  m_Center: {x: 0.008543968, y: 0.026776433, z: -0.0044904947}
 --- !u!4 &415896283 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467192, guid: 52e3c281ef0f0ea4985188d26644edcb, type: 3}
