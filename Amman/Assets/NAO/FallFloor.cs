@@ -51,12 +51,11 @@ public class FallFloor : MonoBehaviour
     void DownStart()
     {
         //fallCount‚ª‰½•b‚©‚½‚Á‚½‚ç
-        if (fallCount >= 3.0f)
+        if (fallCount >= 1.0f)
         {
             //isKinematic‚ðƒIƒt‚É‚·‚é
             rb.isKinematic = false;
         }
     }
-    }
 
-}
+};
