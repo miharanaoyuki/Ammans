@@ -13,6 +13,9 @@ TagManager:
   - door1
   - door2
   - clear
+  - speed_UP
+  - speed_DOWN
+  - move_floor
   layers:
   - Default
   - TransparentFX
