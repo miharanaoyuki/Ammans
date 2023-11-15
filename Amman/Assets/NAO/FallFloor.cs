@@ -14,7 +14,7 @@ public class FallFloor : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>(); //Rigidbodyの取得
-        fallCount = 0; //fullCpuntを初期化
+        fallCount = 0; //fallCountを初期化
     }
 
     //更新処理
@@ -40,10 +40,10 @@ public class FallFloor : MonoBehaviour
         //プレイヤータグが付いているオブジェクトに当たったら
         if (col.gameObject.tag == "Player")
         {
-            
+         
             fallCount = 0; //fallCountを初期化
             floor_touch = true; //floor_touchをtrueにする。
-            //Debug.Log("hit2");
+           
         }
     }
 
