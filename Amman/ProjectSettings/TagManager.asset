@@ -16,6 +16,7 @@ TagManager:
   - speed_UP
   - speed_DOWN
   - move_floor
+  - trampoline
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Enemy
   - Playerdame
   - death
-  - 
+  - trampoline
   - 
   - 
   - 
