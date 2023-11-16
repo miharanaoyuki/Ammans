@@ -742,7 +742,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165214497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6404, y: 1.775, z: -2.708}
+  m_LocalPosition: {x: -3.26, y: 1.69, z: 14.49}
   m_LocalScale: {x: 0.93114454, y: 0.15357718, z: 1.2551559}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1890,8 +1890,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.23912716, y: 0.03994924, z: 0.2354939}
-  m_Center: {x: 0.008543968, y: 0.026776433, z: -0.0044904947}
+  m_Size: {x: 0.28428245, y: 0.082553685, z: 0.25939775}
+  m_Center: {x: -0.0017410517, y: -0.001884371, z: -0.03274834}
 --- !u!114 &410308259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2482,8 +2482,7 @@ GameObject:
   - component: {fileID: 495360808}
   - component: {fileID: 495360807}
   - component: {fileID: 495360806}
-  - component: {fileID: 495360805}
-  - component: {fileID: 495360804}
+  - component: {fileID: 495360813}
   m_Layer: 5
   m_Name: Button (Legacy) (1)
   m_TagString: Untagged
@@ -2512,31 +2511,6 @@ RectTransform:
   m_AnchoredPosition: {x: -94, y: -215.18}
   m_SizeDelta: {x: 327.18, y: 114.13}
   m_Pivot: {x: 0.5, y: 0.57697314}
---- !u!114 &495360804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 495360802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7791bd475699843818cae3f1482dd57c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: StageSelect
---- !u!114 &495360805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 495360802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5f8802855ed246708a4ba442bce68b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &495360806
 Animator:
   serializedVersion: 5
@@ -2661,7 +2635,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 495360804}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Scene, Assembly-CSharp
         m_MethodName: OnClickStartButton
         m_Mode: 1
@@ -2711,6 +2685,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495360802}
   m_CullTransparentMesh: 1
+--- !u!114 &495360813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495360802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53a5a38afbd09d4b98b0c695da14bf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 162445593}
 --- !u!4 &498979548 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467192, guid: 52e3c281ef0f0ea4985188d26644edcb, type: 3}
@@ -2935,6 +2922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5f8802855ed246708a4ba442bce68b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 162445593}
 --- !u!95 &539823667
 Animator:
   serializedVersion: 5
@@ -3991,6 +3979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5f8802855ed246708a4ba442bce68b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 1823820355}
 --- !u!95 &770054023
 Animator:
   serializedVersion: 5
@@ -4641,7 +4630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
