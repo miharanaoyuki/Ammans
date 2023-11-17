@@ -18,6 +18,8 @@ public class PlayerMove : MonoBehaviour
 
     bool a, b, c, d, e, f, g, h;
 
+    bool trampoline;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,8 @@ public class PlayerMove : MonoBehaviour
         controller = GetComponent<CharacterController>();
 
         MoveSpeed = 5.0f;
+
+        trampoline = false;
     }
     void Update()
     {
@@ -52,8 +56,17 @@ public class PlayerMove : MonoBehaviour
                 soundManager.Play("jump");
                 
                 anim.SetBool("jump", true);
-                // ジャンプ力を設定
-                moveDirection.y = 5;
+                if(trampoline == true)
+                {
+                    // ジャンプ力を設定
+                    moveDirection.y = 10;
+                }
+                else
+                {
+                    // ジャンプ力を設定
+                    moveDirection.y = 5;
+                }
+                
             }
         }
         else
@@ -176,7 +189,24 @@ public class PlayerMove : MonoBehaviour
         EndGame();//ゲームプレイ終了関数
     }
 
-    private void EndGame()
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "trampoline")
+        {
+            Debug.Log("バイバイ");
+            trampoline = true;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "trampoline")
+        {
+            trampoline = false;
+        }
+    }
+
+        private void EndGame()
     {
         //Escが押された時
         if (Input.GetKey(KeyCode.Escape))
