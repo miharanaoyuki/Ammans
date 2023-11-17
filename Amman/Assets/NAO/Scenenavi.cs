@@ -7,6 +7,7 @@ public class Scenenavi : MonoBehaviour
 {
     [SerializeField] GameObject panel;
     // 中に記述された処理が一定間隔で繰り返し実行される
+
     void Update()
     {
         // もし入力したキーがEnterキーならば、中の処理を実行する
@@ -16,4 +17,5 @@ public class Scenenavi : MonoBehaviour
             Build.the_world = false;
         }
     }
+   
 }
