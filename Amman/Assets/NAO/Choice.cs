@@ -19,5 +19,4 @@ public class Choice : MonoBehaviour
             Build.the_world = false;
         }
    }
-
 }
