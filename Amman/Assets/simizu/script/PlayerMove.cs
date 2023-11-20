@@ -78,7 +78,7 @@ public class PlayerMove : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A) && a == false)
         {
-            //a = true;
+            //cursor = true;
             b = true;
             c = true;
             d = true;

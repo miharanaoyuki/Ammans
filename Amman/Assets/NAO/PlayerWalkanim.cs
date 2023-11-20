@@ -20,7 +20,7 @@ public class PlayerWalkanim : MonoBehaviour
     {
         if (Build.the_world == true)
         {
-            Debug.Log("the_world");
+            //Debug.Log("the_world");
             anim.SetBool("run2", false);
         }
 

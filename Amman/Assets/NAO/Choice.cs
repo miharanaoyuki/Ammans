@@ -7,16 +7,20 @@ public class Choice : MonoBehaviour
 {
     [SerializeField] GameObject panel;
     Button button;
+    public static bool cursor = false;
   void Start()
   {
        
-   button = gameObject.GetComponent<Button>();
-  //ボタンが選択された状態になる
-        button.Select();
-        if (Input.GetKeyDown(KeyCode.Return))
+  }
+
+    void Update()
+    {
+        if (cursor == false)
         {
-            panel.SetActive(false);
-            Build.the_world = false;
+            button = gameObject.GetComponent<Button>();
+            //ボタンが選択された状態になる
+            button.Select();
+            cursor = true;
         }
-   }
+    }
 }

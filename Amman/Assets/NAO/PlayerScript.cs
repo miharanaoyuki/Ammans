@@ -70,7 +70,7 @@ public class PlayerScript : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.W) && a == false)
             {
-                //a = true;
+                //cursor = true;
                 b = true;
                 c = true;
                 d = true;
