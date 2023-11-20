@@ -10,7 +10,7 @@ public class Scene : MonoBehaviour
  
 	public void OnClickStartButton()
 	{
-		if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyDown(KeyCode.Return))
 			SceneManager.LoadScene(SceneName);
 	}
 

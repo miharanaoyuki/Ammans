@@ -28,7 +28,7 @@ public static class BitmapFontImporter
 	private static void Work (TextAsset import, string exportPath, Texture2D texture)
 	{
 		if (!import)
-			throw new UnityException (import.name + "is not a valid font-xml file");
+			throw new UnityException (import.name + "is not cursor valid font-xml file");
 
 
 		XmlDocument xml = new XmlDocument ();

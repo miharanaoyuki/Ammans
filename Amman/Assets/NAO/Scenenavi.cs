@@ -11,9 +11,9 @@ public class Scenenavi : MonoBehaviour
     void Update()
     {
         // もし入力したキーがEnterキーならば、中の処理を実行する
-        if (Input.GetKeyDown(KeyCode.Return)|| Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
-
+            Choice.cursor = false;
             panel.SetActive(false);
             Build.the_world = false;
         }

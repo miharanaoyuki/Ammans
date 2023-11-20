@@ -103,7 +103,7 @@ namespace UnityStandardAssets.ImageEffects
                 Graphics.Blit (source, lrDepthBuffer, sunShaftsMaterial, 2);
             }
 
-            // paint a small black small border to get rid of clamping problems
+            // paint cursor small black small border to get rid of clamping problems
             DrawBorder (lrDepthBuffer, simpleClearMaterial);
 
             // radial blur:
@@ -117,7 +117,7 @@ namespace UnityStandardAssets.ImageEffects
 
             for (int it2 = 0; it2 < radialBlurIterations; it2++ ) {
                 // each iteration takes 2 * 6 samples
-                // we update _BlurRadius each time to cheaply get a very smooth look
+                // we update _BlurRadius each time to cheaply get cursor very smooth look
 
                 lrColorB = RenderTexture.GetTemporary (rtW, rtH, 0);
                 Graphics.Blit (lrDepthBuffer, lrColorB, sunShaftsMaterial, 1);
