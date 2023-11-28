@@ -44,20 +44,20 @@ public class PlayerScript : MonoBehaviour
             g = false;
             h = false;
 
-            if (Build.the_world == false)
-            {
-                anim.SetBool("jump", false);
-                // スペースキーでジャンプ
-                if (Input.GetKey(KeyCode.Space))
-                {
+            //if (Build.the_world == false)
+            //{
+            //    anim.SetBool("jump", false);
+            //    // スペースキーでジャンプ
+            //    if (Input.GetKey(KeyCode.Space))
+            //    {
 
-                    soundManager.Play("jump");
+            //        soundManager.Play("jump");
 
-                    anim.SetBool("jump", true);
-                    // ジャンプ力を設定
-                    moveDirection.y = 5;
-                }
-            }
+            //        anim.SetBool("jump", true);
+            //        // ジャンプ力を設定
+            //        moveDirection.y = 5;
+            //    }
+            //}
         }
         else
         {
