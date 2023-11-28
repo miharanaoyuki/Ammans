@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class gameover1 : MonoBehaviour
+public class Remove_serect : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -16,7 +16,7 @@ public class gameover1 : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Return))
         {
-            SceneManager.LoadScene("main");
+            SceneManager.LoadScene("StageSelect");
         }
     }
 }
