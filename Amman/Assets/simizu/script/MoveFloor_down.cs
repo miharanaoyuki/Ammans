@@ -45,6 +45,6 @@ public class MoveFloor_down : MonoBehaviour
 
     void Swith4()
     {
-        y = -0.1f;
+        y -= 0.001f;
     }
 }
