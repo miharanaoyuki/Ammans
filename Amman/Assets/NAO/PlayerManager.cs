@@ -18,8 +18,8 @@ public class PlayerManager : MonoBehaviour
 
         if (other.gameObject.CompareTag("stage3"))
         {
-            SceneManager.LoadScene("main3");
-        }
+            SceneManager.LoadScene("main 3");
+        } 
 
         if (other.gameObject.CompareTag("stage4"))
         {
