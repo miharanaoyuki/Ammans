@@ -168,24 +168,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &120685219 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-  m_PrefabInstance: {fileID: 1518127223}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &120685222
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120685219}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.0378203, y: 0.5398458, z: 1.4876777}
-  m_Center: {x: -0.02549696, y: 0.58898634, z: -0.04004991}
 --- !u!1001 &206820792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -241,6 +223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &206820793 stripped
@@ -266,6 +252,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &206820798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206820794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &262202964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -321,6 +319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &262202965 stripped
@@ -346,6 +348,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &262202970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262202966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &305847963 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
@@ -369,6 +383,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &305847968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305847963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &320823924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -423,6 +449,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
       propertyPath: m_Name
       value: Wood_BoatV1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
@@ -584,6 +614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &400164024 stripped
@@ -609,6 +643,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &400164029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400164025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &402418256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -664,6 +710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &402418257 stripped
@@ -689,6 +739,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &402418262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402418258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &473195217
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,6 +1056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &580592614 stripped
@@ -1086,6 +1152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!1001 &604103246
@@ -1143,6 +1213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &604103247 stripped
@@ -1168,6 +1242,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &604103252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604103248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &637278741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1223,6 +1309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &637278742 stripped
@@ -1248,6 +1338,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &637278747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637278743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &658006065 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 6158d1a3191329a4c81f6f9e6c932e99, type: 3}
@@ -1308,6 +1410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!1001 &730015292
@@ -1365,6 +1471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &730015293 stripped
@@ -1390,6 +1500,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &730015298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730015294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &762365758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1457,6 +1579,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
       propertyPath: m_Name
       value: Wood_BoatV1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
@@ -1552,6 +1678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &858804067 stripped
@@ -1577,6 +1707,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &858804072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858804068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &897188706
 GameObject:
   m_ObjectHideFlags: 0
@@ -1653,36 +1795,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897188706}
   m_CullTransparentMesh: 1
---- !u!1 &911144142 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-  m_PrefabInstance: {fileID: 2011138405}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &911144144
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911144142}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.0378203, y: 0.55963933, z: 1.4876777}
-  m_Center: {x: -0.02549696, y: 0.6780576, z: -0.04004991}
---- !u!114 &911144147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 911144142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &913116515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1738,6 +1850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &913116516 stripped
@@ -1763,6 +1879,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &913116521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913116517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &934689453 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
@@ -1786,6 +1914,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &934689458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934689453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &977308427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,6 +2113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &1060232339 stripped
@@ -1998,6 +2142,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &1060232344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060232340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1062759248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2052,6 +2208,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
       propertyPath: m_Name
       value: Wood_BoatV1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
@@ -2154,6 +2314,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &1132945100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132945095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1188092079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2209,6 +2381,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &1188092080 stripped
@@ -2234,6 +2410,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &1188092085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188092081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1201500213 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
@@ -2257,6 +2445,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &1201500218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201500213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1214904354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2377,6 +2577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &1236947497 stripped
@@ -2402,6 +2606,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &1236947502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236947498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1269185868
 GameObject:
   m_ObjectHideFlags: 0
@@ -2630,6 +2846,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
   m_PrefabInstance: {fileID: 1413272209}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1397913775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397913768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1413272209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2684,6 +2912,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
       propertyPath: m_Name
       value: Wood_BoatV1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
@@ -2817,71 +3049,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
       propertyPath: m_Name
       value: Wood_BoatV1 (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
---- !u!1001 &1518127223
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1728067323}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_Name
-      value: Wood_BoatV1 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
       propertyPath: m_TagString
@@ -3038,6 +3205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &1654117878 stripped
@@ -3063,6 +3234,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &1654117883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654117879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1680000396
 GameObject:
   m_ObjectHideFlags: 0
@@ -3278,7 +3461,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
---- !u!114 &1728067327
+--- !u!114 &1728067330
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3313,6 +3496,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &1767029518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767029513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1874298844 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
@@ -3336,6 +3531,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &1874298849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874298844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1893958730
 GameObject:
   m_ObjectHideFlags: 0
@@ -4011,18 +4218,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundManager: {fileID: 1893958734}
---- !u!114 &1918882364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1918882338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4254364a93dfd3439b40e558622c407, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1918882365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4091,6 +4286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &1952413775 stripped
@@ -4116,76 +4315,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &1952413780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952413776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &1992692777 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 137380874227758632, guid: 313ad0ef31f75b84f9f31c0528802fdd, type: 3}
   m_PrefabInstance: {fileID: 1918882337}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2011138405
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 580592614}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_Name
-      value: Wood_BoatV1 (32)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
-      propertyPath: m_TagString
-      value: move_floor_down
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!1001 &2022281352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4241,6 +4387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_BoatV1 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
 --- !u!4 &2022281353 stripped
@@ -4266,6 +4416,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &2022281358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022281354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2033951518 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
@@ -4289,6 +4451,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0378203, y: 0.59922653, z: 1.4876777}
   m_Center: {x: -0.025496906, y: 0.4999155, z: -0.040049892}
+--- !u!114 &2033951523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033951518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e178110d0fed5a4bad97210019f0982, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2094347026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4343,6 +4517,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
       propertyPath: m_Name
       value: Wood_BoatV1 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
+      propertyPath: m_TagString
+      value: move_floor_down
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b9c2549002de7a4fbba40dfaf37b661, type: 3}
