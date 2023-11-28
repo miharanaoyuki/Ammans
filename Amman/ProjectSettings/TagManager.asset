@@ -17,6 +17,7 @@ TagManager:
   - speed_DOWN
   - move_floor
   - trampoline
+  - fall
   layers:
   - Default
   - TransparentFX
