@@ -17,9 +17,10 @@ public class MoveFloor_down_col : MonoBehaviour
     {
 
     }
-    void OnTriggerEnter(Collider col)
+
+    void OnCollisionEnter(Collision col)
     {
-        if (col.tag == "move_floor_down")
+        if (col.gameObject.tag == "move_floor_down")
         {
             Debug.Log("hit");
             floor_col = true;
