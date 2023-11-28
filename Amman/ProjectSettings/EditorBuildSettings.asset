@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Stage/main/main2.unity
     guid: a9817db6d886cae42978d89dfe712db8
   - enabled: 1
+    path: Assets/Scenes/Stage/main/main 3.unity
+    guid: 22b74e359211dc64da5a278622dd0f7c
+  - enabled: 1
+    path: Assets/Scenes/Stage/main/main4.unity
+    guid: 9a884995f26cb5a4384518398d8253ab
+  - enabled: 1
     path: Assets/Scenes/Stage/main/GAMEOVER.unity
     guid: 38d6f08b98067124facc02f8e43243d5
   - enabled: 1
