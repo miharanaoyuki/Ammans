@@ -17,6 +17,11 @@ TagManager:
   - speed_DOWN
   - move_floor
   - trampoline
+  - stage
+  - stage1
+  - stage2
+  - stage3
+  - stage4
   layers:
   - Default
   - TransparentFX

@@ -8,6 +8,9 @@ public class Build : MonoBehaviour
     Button button;
     [SerializeField] GameObject panel;
     [SerializeField] GameObject panel2;
+    [SerializeField] GameObject panel3;
+    [SerializeField] GameObject panel4;
+
     public static bool the_world;
    
     void Start()
@@ -25,7 +28,7 @@ public class Build : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "door")
+        if (other.gameObject.tag == "stage1")
         {
             panel.SetActive(true);
             the_world = true;
@@ -33,9 +36,24 @@ public class Build : MonoBehaviour
         }
     
 
-        if (other.gameObject.tag == "door2")
+        if (other.gameObject.tag == "stage2")
         {
             panel2.SetActive(true);
+            the_world = true;
+            Debug.Log("hit");
+        }
+
+
+        if (other.gameObject.tag == "stage3")
+        {
+            panel3.SetActive(true);
+            the_world = true;
+            Debug.Log("hit");
+        }
+
+        if (other.gameObject.tag == "stage4")
+        {
+            panel4.SetActive(true);
             the_world = true;
             Debug.Log("hit");
         }
