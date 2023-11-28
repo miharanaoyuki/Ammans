@@ -7,8 +7,7 @@ using UnityEngine.SceneManagement;
 public class HP : MonoBehaviour
 {
     public static int life = 3;//hpを6にする。SliderのMaxValueとValueはここの値に合わせます
-    private Slider _slider;//Sliderの値を代入する_sliderを宣言
-    public GameObject slider;//体力ゲージに指定するSlider
+   
     public static int maxHp = 3;
 
 
@@ -27,7 +26,7 @@ public class HP : MonoBehaviour
         life = maxHp;
         //Debug.Log(life);
 
-        _slider = slider.GetComponent<Slider>();//sliderを取得する
+       
     }
 
     // Update is called once per frame
@@ -35,13 +34,13 @@ public class HP : MonoBehaviour
     {
 
 
-        _slider.maxValue = maxHp;
+        
 
-        //スライダーの現在値の設定
+       
 
 
 
-        _slider.value = life;
+        
 
 
        
@@ -61,10 +60,10 @@ public class HP : MonoBehaviour
 
     void die()
     {
-
+        Debug.Log("バイバイ");
         SceneManager.LoadScene("GAMEOVER");
 
-        //Debug.Log("バイバイ");
+        
 
     }
 
@@ -74,7 +73,7 @@ public class HP : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            Debug.Log("バイバイ");
+            
             soundManager.Play("damage");
 
             soundManager.Play("dame");
@@ -84,7 +83,7 @@ public class HP : MonoBehaviour
 
         if (other.gameObject.tag == "heart")
         {
-            Debug.Log("バイ");
+            
             soundManager.Play("damage");
 
             if (life < 3)
@@ -113,7 +112,7 @@ public class HP : MonoBehaviour
     {
 
 
-        Debug.Log("バp");
+        
 
 
 
