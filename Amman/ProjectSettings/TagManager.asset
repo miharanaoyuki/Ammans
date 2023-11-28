@@ -17,19 +17,24 @@ TagManager:
   - speed_DOWN
   - move_floor
   - trampoline
-
+  - fall
+  - stage2
+  - stage1
+  - stage3
+  - Undefined
+  - stage4
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - wall
+  - 
   - Water
   - UI
-  - Player
-  - Enemy
-  - Playerdame
-  - death
-  - trampoline
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

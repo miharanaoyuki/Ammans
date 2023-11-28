@@ -40,7 +40,7 @@ public class Build : MonoBehaviour
         {
             panel2.SetActive(true);
             the_world = true;
-            Debug.Log("hit");
+            Debug.Log("hit1");
         }
 
 
@@ -48,14 +48,14 @@ public class Build : MonoBehaviour
         {
             panel3.SetActive(true);
             the_world = true;
-            Debug.Log("hit");
+            Debug.Log("hit2");
         }
 
         if (other.gameObject.tag == "stage4")
         {
             panel4.SetActive(true);
             the_world = true;
-            Debug.Log("hit");
+            Debug.Log("hit3");
         }
     }
 
