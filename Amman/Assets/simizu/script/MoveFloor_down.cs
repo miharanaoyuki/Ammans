@@ -18,6 +18,8 @@ public class MoveFloor_down : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 pos = transform.position;
+
         if (floor_col == true)
         {
             Vector3 p = new Vector3(0, y, z);
@@ -25,6 +27,11 @@ public class MoveFloor_down : MonoBehaviour
 
             Invoke("Swith3", 2f);
             Invoke("Swith4", 2.3f);
+        }
+
+        if(pos.y < -10.0f)
+        {
+            Destroy(gameObject);
         }
     }
 
