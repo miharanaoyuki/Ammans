@@ -23814,7 +23814,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c954a9f396b2043a6a74cf6fbd0b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 1692935166}
   lifeArray:
   - {fileID: 473195217}
   - {fileID: 1269185868}
@@ -23941,6 +23940,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a5e70c8de09e9f48baff2acbc737329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1918882363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918882338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408bd99862081794eafbca8e7b4acbcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1923508682

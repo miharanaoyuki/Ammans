@@ -23,6 +23,10 @@ TagManager:
   - stage3
   - Undefined
   - stage4
+  - move_floor_down
+  - clear2
+  - clear3
+  - clear4
   layers:
   - Default
   - TransparentFX
