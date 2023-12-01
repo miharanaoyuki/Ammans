@@ -31,19 +31,7 @@ public class HP : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-
-
-        
-
-       
-
-
-
-        
-
-
-       
+    { 
         if (life <= 0)
         {
 
@@ -100,12 +88,6 @@ public class HP : MonoBehaviour
             SceneManager.LoadScene("GAMEOVER");
 
         }
-        if (other.gameObject.tag == "clear")
-        {
-            SceneManager.LoadScene("GameClear");
-
-        }
-
     }
 
     void OnCollisionEnter(Collision col)

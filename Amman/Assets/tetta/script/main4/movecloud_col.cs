@@ -4,27 +4,36 @@ using UnityEngine;
 
 public class movecloud_col : MonoBehaviour
 {
+    bool hit_check = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    void OnCollisionEnter(Collision col)
-    {
-        if (col.gameObject.tag == "move_floor")
+        if (hit_check == true)
         {
-            Debug.Log("aaaaa");
-            Vector3 pos = transform.position;
-            pos.x += movecloud.player_moveX;
-            pos.y += movecloud.player_moveY;
-            pos.z += movecloud.player_moveZ;
+            this.gameObject.transform.Translate(movecloud.player_x, 0, 0, Space.World);
+        }
+    }
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.tag == "move_floor")
+        {
+            Debug.Log("hit");
+            hit_check = true;
+        }
+    }
+    void OnTriggerExit(Collider col)
+    {
+        if (col.tag == "move_floor")
+        {
+            Debug.Log("No");
+            hit_check = false;
         }
     }
 }
