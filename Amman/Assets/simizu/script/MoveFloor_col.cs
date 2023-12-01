@@ -17,17 +17,17 @@ public class MoveFloor_col : MonoBehaviour
     {
 
     }
-    void OnTriggerEnter(Collider col)
+    void OnCollisionEnter(Collision col)
     {
-        if (col.tag == "move_floor")
+        if (col.gameObject.tag == "move_floor")
         {
             Debug.Log("hit");
             this.gameObject.transform.parent = floor.gameObject.transform;
         }
     }
-    void OnTriggerExit(Collider col)
+    void OnCollisionExit(Collision col)
     {
-        if (col.tag == "move_floor")
+        if (col.gameObject.tag == "move_floor")
         {
             Debug.Log("No");
             this.gameObject.transform.parent = null;

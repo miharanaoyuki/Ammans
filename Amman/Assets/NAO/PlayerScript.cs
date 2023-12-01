@@ -178,6 +178,18 @@ public class PlayerScript : MonoBehaviour
 
         //controller.Move(Velocity * Time.deltaTime);//characterControllerをVelocity * 時間の経過分動かす
 
+        //カメラ視点-------------------------------------------------------------------------------------
+        Vector3 pos = transform.position;
+        if (pos.z > 10.0f)
+        {
+            siten.siten_sousa = true;
+        }
+        else
+        {
+            siten.siten_sousa = false;
+        }
+        //-----------------------------------------------------------------------------------------------
+
         EndGame();//ゲームプレイ終了関数
     }
 
