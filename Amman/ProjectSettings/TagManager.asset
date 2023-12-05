@@ -27,6 +27,10 @@ TagManager:
   - clear2
   - clear3
   - clear4
+  - lb_bird
+  - lb_groundTarget
+  - lb_perchTarget
+  - move_floor2
   layers:
   - Default
   - TransparentFX
