@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class bird : MonoBehaviour
 {
-    float speed = 0.03f;
+    float speed = 0.15f;
 
     // Start is called before the first frame update
     void Start()
