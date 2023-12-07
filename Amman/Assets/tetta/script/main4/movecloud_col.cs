@@ -5,6 +5,7 @@ using UnityEngine;
 public class movecloud_col : MonoBehaviour
 {
     bool hit_check = false;
+    bool hit_check2 = false;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,10 @@ public class movecloud_col : MonoBehaviour
         {
             this.gameObject.transform.Translate(movecloud.player_x, 0, 0, Space.World);
         }
+        if (hit_check2 == true)
+        {
+            this.gameObject.transform.Translate(movecloud1.player_x, 0, 0, Space.World);
+        }
     }
     void OnTriggerEnter(Collider col)
     {
@@ -27,6 +32,11 @@ public class movecloud_col : MonoBehaviour
             Debug.Log("hit");
             hit_check = true;
         }
+        if (col.tag == "move_floor2")
+        {
+            Debug.Log("hit");
+            hit_check2 = true;
+        }
     }
     void OnTriggerExit(Collider col)
     {
@@ -34,6 +44,11 @@ public class movecloud_col : MonoBehaviour
         {
             Debug.Log("No");
             hit_check = false;
+        }
+        if (col.tag == "move_floor2")
+        {
+            Debug.Log("No");
+            hit_check2 = false;
         }
     }
 }
