@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class HP1 : MonoBehaviour
+public class HP3 : MonoBehaviour
 {
     public static int life = 3;//hpを6にする。SliderのMaxValueとValueはここの値に合わせます
 
@@ -49,7 +49,7 @@ public class HP1 : MonoBehaviour
     void die()
     {
         Debug.Log("バイバイ");
-        SceneManager.LoadScene("GAMEOVER1");
+        SceneManager.LoadScene("Gameover3");
 
 
 
@@ -85,7 +85,7 @@ public class HP1 : MonoBehaviour
 
         if (other.gameObject.tag == "death")
         {
-            SceneManager.LoadScene("Gameover1");
+            SceneManager.LoadScene("Gameover3");
 
         }
     }
