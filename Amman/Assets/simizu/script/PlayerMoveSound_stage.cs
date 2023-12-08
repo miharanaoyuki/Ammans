@@ -1,15 +1,14 @@
 using UnityEngine;
 
-public class PlayerMoveSound : MonoBehaviour
+public class PlayerMoveSound_stage : MonoBehaviour
 {
     bool check;
-
     int Go = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        check = false;
     }
 
     // Update is called once per frame
@@ -49,25 +48,20 @@ public class PlayerMoveSound : MonoBehaviour
         }
         if (Input.GetKeyUp(KeyCode.A))
         {
-            Go -= 1;  
+            Go -= 1;
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
             Go -= 1;
         }
 
-        if(Go > 0 && check == true)
+        if (Go == 1 && check == true)
         {
             GetComponent<AudioSource>().Play();
             check = false;
         }
 
-        if (Go == 0)
-        {
-            GetComponent<AudioSource>().Stop();
-        }
-
-        if (Input.GetKey(KeyCode.Space))
+        if (Go == 0 || Build.the_world == true)
         {
             GetComponent<AudioSource>().Stop();
         }
