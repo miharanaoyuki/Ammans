@@ -1698,6 +1698,10 @@ PrefabInstance:
       value: sptp_street_concrete_02
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6158d1a3191329a4c81f6f9e6c932e99, type: 3}
+      propertyPath: m_Layer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6158d1a3191329a4c81f6f9e6c932e99, type: 3}
       propertyPath: m_TagString
       value: death
       objectReference: {fileID: 0}
