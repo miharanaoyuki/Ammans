@@ -34,78 +34,80 @@ public class PlayerMove2 : MonoBehaviour
     }
     void Update()
     {
-        // 接地しているなら
-        if (controller.isGrounded)
+        if (countdown.ready == true)
         {
-            anim.SetBool("jump", false);
-            // スペースキーでジャンプ
-            if (Input.GetKey(KeyCode.Space))
+            // 接地しているなら
+            if (controller.isGrounded)
             {
-
-                soundManager.Play("jump");
-
-                anim.SetBool("jump", true);
-                if (trampoline == true)
+                anim.SetBool("jump", false);
+                // スペースキーでジャンプ
+                if (Input.GetKey(KeyCode.Space))
                 {
-                    // ジャンプ力を設定
-                    moveDirection.y = 10;
-                }
-                else
-                {
-                    // ジャンプ力を設定
-                    moveDirection.y = 5;
-                }
 
+                    soundManager.Play("jump");
+
+                    anim.SetBool("jump", true);
+                    if (trampoline == true)
+                    {
+                        // ジャンプ力を設定
+                        moveDirection.y = 10;
+                    }
+                    else
+                    {
+                        // ジャンプ力を設定
+                        moveDirection.y = 5;
+                    }
+
+                }
+            }
+            else
+            {
+                //Debug.Log("外");
+                // 重力計算
+                moveDirection.y -= 8 * Time.deltaTime;
+            }
+
+            if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A))
+            {
+                transform.rotation = Quaternion.Euler(0, 315, 0);
+                controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A))
+            {
+                transform.rotation = Quaternion.Euler(0, 225, 0);
+                controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D))
+            {
+                transform.rotation = Quaternion.Euler(0, 45, 0);
+                controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.D))
+            {
+                transform.rotation = Quaternion.Euler(0, 135, 0);
+                controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.W))
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);//0°に向ける
+                controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.S))
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+                controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.A))
+            {
+                transform.rotation = Quaternion.Euler(0, 270, 0);
+                controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.D))
+            {
+                transform.rotation = Quaternion.Euler(0, 90, 0);
+                controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
             }
         }
-        else
-        {
-            //Debug.Log("外");
-            // 重力計算
-            moveDirection.y -= 8 * Time.deltaTime;
-        }
-
-        if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A))
-        {
-            transform.rotation = Quaternion.Euler(0, 315, 0);
-            controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A))
-        {
-            transform.rotation = Quaternion.Euler(0, 225, 0);
-            controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D))
-        {
-            transform.rotation = Quaternion.Euler(0, 45, 0);
-            controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.D))
-        {
-            transform.rotation = Quaternion.Euler(0, 135, 0);
-            controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.W))
-        {
-            transform.rotation = Quaternion.Euler(0, 0, 0);//0°に向ける
-            controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-            controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.A))
-        {
-            transform.rotation = Quaternion.Euler(0, 270, 0);
-            controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            transform.rotation = Quaternion.Euler(0, 90, 0);
-            controller.Move(this.gameObject.transform.forward * MoveSpeed * Time.deltaTime);
-        }
-
         // Cubeを動かす処理
         controller.Move(moveDirection * Time.deltaTime);
 

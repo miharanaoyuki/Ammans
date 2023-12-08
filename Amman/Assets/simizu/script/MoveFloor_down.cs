@@ -20,16 +20,9 @@ public class MoveFloor_down : MonoBehaviour
     {
         Vector3 pos = transform.position;
 
-        if (floor_col == true)
-        {
-            Vector3 p = new Vector3(0, y, z);
-            transform.Translate(p);
+        Invoke("count", 3.2f);
 
-            Invoke("Swith3", 2f);
-            Invoke("Swith4", 2.3f);
-        }
-
-        if(pos.y < -10.0f)
+        if (pos.y < -10.0f)
         {
             Destroy(gameObject);
         }
@@ -41,6 +34,18 @@ public class MoveFloor_down : MonoBehaviour
         {
             Debug.Log("hit");
             floor_col = true;
+        }
+    }
+
+    void count()
+    {
+        if (floor_col == true)
+        {
+            Vector3 p = new Vector3(0, y, z);
+            transform.Translate(p);
+
+            Invoke("Swith3", 2f);
+            Invoke("Swith4", 2.3f);
         }
     }
 

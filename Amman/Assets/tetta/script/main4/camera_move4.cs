@@ -15,6 +15,7 @@ public class camera_move4 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(countdown.ready == true)
         transform.Translate(0, 0, speed);
     }
 }
