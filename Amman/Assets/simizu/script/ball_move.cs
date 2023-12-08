@@ -20,9 +20,9 @@ public class ball_move : MonoBehaviour
 
         transform.position += new Vector3(move_x, move_y, move_z) * Time.deltaTime * 2.5f;
 
-        //if (pos.x <= -15.0f)
-        //{
-        //    Destroy(gameObject);
-        //}
+        if (pos.x <= 20.0f || pos.x >= 65.0f)
+        {
+            Destroy(gameObject);
+        }
     }
 }
