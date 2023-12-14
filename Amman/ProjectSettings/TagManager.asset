@@ -31,6 +31,7 @@ TagManager:
   - lb_groundTarget
   - lb_perchTarget
   - move_floor2
+  - barricade
   layers:
   - Default
   - TransparentFX
@@ -42,8 +43,8 @@ TagManager:
   - 
   - Playerdame
   - 
-  - 
-  - 
+  - barricade
+  - barricade_hit
   - 
   - 
   - 
