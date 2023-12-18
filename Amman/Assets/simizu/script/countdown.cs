@@ -13,7 +13,7 @@ public class countdown : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		CountDownTime = 3.5f; //カウントダウン開始秒数をセット
+		CountDownTime = 3.4f; //カウントダウン開始秒数をセット
 		TextCountDown.enabled = true;
 		ready = false;
 	}
