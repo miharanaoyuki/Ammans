@@ -15,11 +15,15 @@ public class police_move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > 5 || transform.position.x < -6)
+        if (transform.position.x > 5)
         {
-            speed *= -1;
+            transform.rotation = Quaternion.Euler(0, 270, 0);
+        }
+        if (transform.position.x < -6)
+        {
+            transform.rotation = Quaternion.Euler(0, 90, 0);
         }
 
-        transform.Translate(speed, 0, 0);
+        transform.Translate(0, 0, speed);
     }
 }
