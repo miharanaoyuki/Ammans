@@ -6,12 +6,11 @@ using UnityEngine.SceneManagement;
 public class Scene : MonoBehaviour
 {
     public string SceneName;
-
+    public Fade fade;
  
 	public void OnClickStartButton()
 	{
-		if (Input.GetKeyDown(KeyCode.Return))
-			SceneManager.LoadScene(SceneName);
-	}
-
+	    if (Input.GetKeyDown(KeyCode.Return))
+            SceneManager.LoadScene(SceneName);
+        }
 }
