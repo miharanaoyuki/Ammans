@@ -463,7 +463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: main
-
+  fade: {fileID: 1568124331}
 --- !u!114 &32297606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4737,7 +4737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: main2
-
+  fade: {fileID: 1568124331}
 --- !u!4 &640878983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467192, guid: 52e3c281ef0f0ea4985188d26644edcb, type: 3}
@@ -5219,8 +5219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7791bd475699843818cae3f1482dd57c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-
-  fade: {fileID: 1568124331}
+  SceneName: 
+  fade: {fileID: 0}
 --- !u!1001 &756572299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5932,7 +5932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: main3
-
+  fade: {fileID: 1568124331}
 --- !u!114 &933519171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6169,7 +6169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: main4
-
+  fade: {fileID: 1568124331}
 --- !u!114 &940404373
 MonoBehaviour:
   m_ObjectHideFlags: 0
