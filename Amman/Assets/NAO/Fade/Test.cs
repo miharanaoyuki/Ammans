@@ -9,13 +9,14 @@ public class Test : MonoBehaviour
 	public void OnClickStartButton()
 	{
 		if (Input.GetKeyDown(KeyCode.Return));
-　　　　　　　　　　{
-                     Invoke("scene",0.6f)
-                   }
+　　　　　　{
+                     Invoke("scene", 0.6f);
+            }
 	}
+
   void Scene()
-        {
+  {
           fade.FadeIn(0.5f,() =>print("フェードイン完了"));
            SceneManager.LoadScene(SceneName);
-        }
+  }
 }
