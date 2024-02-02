@@ -23,7 +23,6 @@ public class barricade : MonoBehaviour
         {
             
             //transform.Rotate(90f, 0f, 0f);  // Z²‚ğ10‹‰ñ“]
-            //ƒŒƒCƒ„[‚ğPlayerDamage‚É•ÏX
             gameObject.layer = LayerMask.NameToLayer("Default");
             
         }

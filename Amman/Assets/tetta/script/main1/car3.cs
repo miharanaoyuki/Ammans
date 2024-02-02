@@ -15,7 +15,7 @@ public class car3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (camera_move1.point == 2)
+        if (countdown.ready == true)
         {
             transform.Translate(0, 0, speed);
         }
