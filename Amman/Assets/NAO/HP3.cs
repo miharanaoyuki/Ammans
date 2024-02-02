@@ -25,7 +25,7 @@ public class HP4 : MonoBehaviour
     {
         life = maxHp;
         //Debug.Log(life);
-
+        life = MAX;
 
     }
 
@@ -35,7 +35,7 @@ public class HP4 : MonoBehaviour
         if (life <= 0)
         {
 
-            life = MAX;
+            
 
             lifeArray[0].SetActive(true);
             lifeArray[1].SetActive(true);

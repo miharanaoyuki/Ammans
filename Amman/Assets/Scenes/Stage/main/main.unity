@@ -2118,7 +2118,7 @@ GameObject:
   - component: {fileID: 323248292}
   - component: {fileID: 323248291}
   - component: {fileID: 323248290}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -3884,7 +3884,7 @@ GameObject:
   - component: {fileID: 653199084}
   - component: {fileID: 653199083}
   - component: {fileID: 653199082}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -7653,7 +7653,7 @@ GameObject:
   - component: {fileID: 1246076005}
   - component: {fileID: 1246076004}
   - component: {fileID: 1246076003}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -7937,8 +7937,8 @@ Transform:
   - {fileID: 1269047312}
   - {fileID: 1328719636}
   - {fileID: 1232499093}
-  - {fileID: 1180987576}
   - {fileID: 109706254}
+  - {fileID: 1180987576}
   - {fileID: 771042538}
   - {fileID: 2117016998}
   - {fileID: 387650923}
@@ -7958,26 +7958,26 @@ Transform:
   - {fileID: 740411272}
   - {fileID: 1326382262}
   - {fileID: 762365755}
-  - {fileID: 132117626}
   - {fileID: 591902782}
-  - {fileID: 51262538}
-  - {fileID: 790814983}
   - {fileID: 946461745}
-  - {fileID: 644395984}
+  - {fileID: 1072726388}
+  - {fileID: 1096151436}
   - {fileID: 1405771393}
+  - {fileID: 1471653519}
+  - {fileID: 644395984}
   - {fileID: 1999963960}
-  - {fileID: 1499217474}
   - {fileID: 314317934}
   - {fileID: 1479715253}
   - {fileID: 515503785}
   - {fileID: 1548166505}
   - {fileID: 1691734566}
   - {fileID: 1556304331}
-  - {fileID: 773690429}
-  - {fileID: 1096151436}
   - {fileID: 2056592564}
-  - {fileID: 1471653519}
-  - {fileID: 1072726388}
+  - {fileID: 773690429}
+  - {fileID: 790814983}
+  - {fileID: 1499217474}
+  - {fileID: 51262538}
+  - {fileID: 132117626}
   - {fileID: 234102645}
   - {fileID: 14375532}
   - {fileID: 1714869317}
@@ -13866,7 +13866,7 @@ GameObject:
   - component: {fileID: 1981042257}
   - component: {fileID: 1981042256}
   - component: {fileID: 1981042255}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -14063,7 +14063,7 @@ GameObject:
   - component: {fileID: 2001709651}
   - component: {fileID: 2001709650}
   - component: {fileID: 2001709649}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -14296,7 +14296,7 @@ GameObject:
   - component: {fileID: 2035881594}
   - component: {fileID: 2035881593}
   - component: {fileID: 2035881592}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}

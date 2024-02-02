@@ -10,7 +10,7 @@ public class Choice : MonoBehaviour
     public static bool cursor = false;
   void Start()
   {
-       
+        cursor = false;
   }
 
     void Update()
