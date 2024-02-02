@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.32644942, g: 0.26384902, b: 0.3756858, a: 1}
+  m_IndirectSpecularColor: {r: 0.3263667, g: 0.26385638, b: 0.3754832, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -298,6 +298,7 @@ GameObject:
   - component: {fileID: 818874043}
   - component: {fileID: 818874046}
   - component: {fileID: 818874047}
+  - component: {fileID: 818874048}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -396,6 +397,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 359a8ae82a92ea0488c06e45c9aacb78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundManager: {fileID: 818874048}
+--- !u!114 &818874048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818874042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b404b8c65aaa7c34cb3a5b98c98430a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundDatas:
+  - name: decision
+    audioClip: {fileID: 8300000, guid: f7fac3c6e6e0fe840ac7ac25cb6d4bc1, type: 3}
+    playedTime: 0
+  playableDistance: 0.2
 --- !u!1 &854622212
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,7 +459,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3d6b934bfb4376742a7057876257e564, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.29
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
