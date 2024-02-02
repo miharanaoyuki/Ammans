@@ -7,16 +7,29 @@ public class Scenenavi : MonoBehaviour
 {
     [SerializeField] GameObject panel;
     // 中に記述された処理が一定間隔で繰り返し実行される
+    [SerializeField]
+    private SoundManager soundManager;
 
-    void Update()
-    {
-        // もし入力したキーがEnterキーならば、中の処理を実行する
-        if (Input.GetKeyDown(KeyCode.Return))
+        public void OnClickStartButton()
         {
-            Choice.cursor = false;
-            panel.SetActive(false);
-            Build.the_world = false;
+            // もし入力したキーがEnterキーならば、中の処理を実行する
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+
+                Invoke("cancel", 0.1f);
+            }
         }
+    
+
+    void cancel()
+    {
+
+        soundManager.Play("cancel");
+        Choice.cursor = false;
+        panel.SetActive(false);
+        Build.the_world = false;
     }
-   
+
+
+
 }

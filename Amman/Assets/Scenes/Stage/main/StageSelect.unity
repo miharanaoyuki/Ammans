@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1207636, g: 0.1864344, b: 0.33522815, a: 1}
+  m_IndirectSpecularColor: {r: 0.12072598, g: 0.18643579, b: 0.3350303, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -401,7 +401,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 32297605}
-        m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
+        m_TargetAssemblyTypeName: Scene, Assembly-CSharp
         m_MethodName: OnClickStartButton
         m_Mode: 1
         m_Arguments:
@@ -464,6 +464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: main
   fade: {fileID: 1568124331}
+  soundManager: {fileID: 2127871599}
 --- !u!114 &32297606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -963,6 +964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 570211623}
+  soundManager: {fileID: 2127871599}
 --- !u!114 &192107760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2809,6 +2811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1823820355}
+  soundManager: {fileID: 2127871599}
 --- !u!114 &438632913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3546,6 +3549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1235522042}
+  soundManager: {fileID: 2127871599}
 --- !u!114 &501889025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4426,6 +4430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1823820355}
+  soundManager: {fileID: 2127871599}
 --- !u!1 &603231437
 GameObject:
   m_ObjectHideFlags: 0
@@ -4738,6 +4743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: main2
   fade: {fileID: 1568124331}
+  soundManager: {fileID: 2127871599}
 --- !u!4 &640878983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467192, guid: 52e3c281ef0f0ea4985188d26644edcb, type: 3}
@@ -4795,6 +4801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1823820355}
+  soundManager: {fileID: 2127871599}
 --- !u!114 &661302405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5221,6 +5228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: main
   fade: {fileID: 1568124331}
+  soundManager: {fileID: 0}
 --- !u!1001 &756572299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5933,6 +5941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: main3
   fade: {fileID: 1568124331}
+  soundManager: {fileID: 2127871599}
 --- !u!114 &933519171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6170,6 +6179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: main4
   fade: {fileID: 1568124331}
+  soundManager: {fileID: 2127871599}
 --- !u!114 &940404373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7249,7 +7259,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1116920179}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1116920181}
+        m_TargetAssemblyTypeName: Scenenavi, Assembly-CSharp
+        m_MethodName: OnClickStartButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: cancel
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1116920179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7301,6 +7323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1823820355}
+  soundManager: {fileID: 2127871599}
 --- !u!1001 &1125265159
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7391,7 +7414,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1144483576
 Transform:
   m_ObjectHideFlags: 0
@@ -8412,6 +8435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 162445593}
+  soundManager: {fileID: 2127871599}
 --- !u!114 &1381673976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8537,7 +8561,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1427852530
 Transform:
   m_ObjectHideFlags: 0
@@ -10468,6 +10492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1823820355}
+  soundManager: {fileID: 2127871599}
 --- !u!114 &1909407338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10679,7 +10704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1977531236
 Transform:
   m_ObjectHideFlags: 0
@@ -11637,6 +11662,12 @@ MonoBehaviour:
     playedTime: 0
   - name: dame
     audioClip: {fileID: 8300000, guid: 10f92976248d0c8448b4f724e6d29a7e, type: 3}
+    playedTime: 0
+  - name: decision_Select
+    audioClip: {fileID: 8300000, guid: 9c1589ed392d3624ca2b9524c6c0a5d3, type: 3}
+    playedTime: 0
+  - name: cancel
+    audioClip: {fileID: 8300000, guid: ef5dca4ad43ae974486d694453644736, type: 3}
     playedTime: 0
   playableDistance: 0.2
 --- !u!82 &2127871600
