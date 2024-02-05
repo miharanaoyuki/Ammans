@@ -405,9 +405,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -461,6 +469,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &18217310 stripped
@@ -1709,9 +1725,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1765,6 +1789,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &299136692 stripped
@@ -3532,11 +3564,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614729054}
   m_CullTransparentMesh: 1
---- !u!1 &617352384 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
-  m_PrefabInstance: {fileID: 1488524568}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &626560372 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
@@ -4114,7 +4141,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5099720224457134957, guid: f8c3b65648d88284e8a74f107c8cbb56, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5099720224457134957, guid: f8c3b65648d88284e8a74f107c8cbb56, type: 3}
       propertyPath: m_LocalScale.x
@@ -4230,9 +4257,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -4286,6 +4321,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &719264347 stripped
@@ -6243,9 +6286,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -6299,6 +6350,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &1038201144 stripped
@@ -6337,9 +6396,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -6393,6 +6460,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &1042513100 stripped
@@ -7085,9 +7160,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -7141,6 +7224,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &1115638431 stripped
@@ -8909,9 +9000,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -8965,6 +9064,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &1394490641 stripped
@@ -9465,9 +9572,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -9521,6 +9636,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &1421931160 stripped
@@ -10140,29 +10263,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1710712336}
     m_Modifications:
+    - target: {fileID: -6684925716839416478, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_Name
       value: Barricade (26)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
-      propertyPath: m_Layer
-      value: 10
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10204,6 +10319,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &1488524569 stripped
@@ -10211,22 +10334,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
   m_PrefabInstance: {fileID: 1488524568}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1488524573
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617352384}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!4 &1494054371 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 464420, guid: eae796383f4a9a840ba3676f3b03efbf, type: 3}
@@ -11733,9 +11840,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -11789,6 +11904,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &1773523206 stripped
@@ -11827,9 +11950,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -11883,6 +12014,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &1786331889 stripped
@@ -12670,6 +12809,9 @@ MonoBehaviour:
   - name: dame
     audioClip: {fileID: 8300000, guid: 10f92976248d0c8448b4f724e6d29a7e, type: 3}
     playedTime: 0
+  - name: robo
+    audioClip: {fileID: 8300000, guid: 668ef15e38204ed438e30854d308efaf, type: 3}
+    playedTime: 0
   playableDistance: 0.2
 --- !u!82 &1893958735
 AudioSource:
@@ -13374,9 +13516,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -13430,6 +13580,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &1932828554 stripped
@@ -14690,9 +14848,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -14746,6 +14912,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &2078069891 stripped
@@ -14882,7 +15056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4137495918952540, guid: 3c88d7f185112bd48a51cd078564a280, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4137495918952540, guid: 3c88d7f185112bd48a51cd078564a280, type: 3}
       propertyPath: m_LocalScale.x
@@ -14953,9 +15127,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -15009,6 +15191,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &2094722659 stripped
@@ -15116,9 +15306,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -15172,6 +15370,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &2101842250 stripped
@@ -15319,9 +15525,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_TagString
+      value: barricade
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -15375,6 +15589,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488524577, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1893958734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3686da1969823f4b97aa52ca42789f0, type: 3}
 --- !u!4 &2123216769 stripped
