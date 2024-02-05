@@ -36,7 +36,7 @@ public class clear_check : MonoBehaviour
         if (other.gameObject.tag == "clear3")
         {
             clear_check_3 = true;
-            SceneManager.LoadScene("GameClear");
+            SceneManager.LoadScene("GameClear3");
         }
         if (other.gameObject.tag == "clear4")
         {

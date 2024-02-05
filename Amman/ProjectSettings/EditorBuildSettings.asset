@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage/main/GameClear.unity
     guid: bc999570d0e80ba45930419853001529
+  - enabled: 1
+    path: Assets/Scenes/Stage/main/GameClear3.unity
+    guid: 9a617d96127745e4c9f77a91dbee33bb
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
