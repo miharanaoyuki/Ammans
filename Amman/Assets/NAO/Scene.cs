@@ -10,7 +10,7 @@ public class Scene : MonoBehaviour
     private SoundManager soundManager;
     public void OnClickStartButton()
     {
-        if (Input.GetKeyDown(KeyCode.Return)) 
+        if (Input.GetKeyDown(KeyCode.Space)) 
         {
             fade.FadeIn(0.5f, () => print("フェードイン完了"));
             soundManager.Play("decision_Select");

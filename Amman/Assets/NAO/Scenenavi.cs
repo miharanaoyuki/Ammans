@@ -13,7 +13,7 @@ public class Scenenavi : MonoBehaviour
         public void OnClickStartButton()
         {
             // もし入力したキーがEnterキーならば、中の処理を実行する
-            if (Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
 
                 Invoke("cancel", 0.1f);
