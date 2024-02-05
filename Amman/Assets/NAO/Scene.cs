@@ -8,7 +8,7 @@ public class Scene : MonoBehaviour
     public Fade fade;
     public void OnClickStartButton()
     {
-        if (Input.GetKeyDown(KeyCode.Return)) 
+        if (Input.GetKeyDown(KeyCode.Space)) 
         {
             fade.FadeIn(0.5f, () => print("フェードイン完了"));
             Invoke("scene", 0.6f);
